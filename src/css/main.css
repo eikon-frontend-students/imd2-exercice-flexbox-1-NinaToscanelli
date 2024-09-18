@@ -12,3 +12,50 @@ img,
 video {
   display: block;
 }
+
+.section {
+  background: #2a9d8f;
+  padding: 20px;
+  margin: 40px;
+}
+
+.box {
+  background-color: #264653;
+  padding: 40px;
+  color: #ffefef;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 119.048% */
+  letter-spacing: 0.263px;
+}
+
+.section-1 {
+  display: flex;
+  gap: 20px;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
